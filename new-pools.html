@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New Fibreglass Pools &mdash; Shapes &amp; Sizes | All About Pools Cape Town</title>
+<meta name="description" content="Browse our full range of fibreglass swimming pool designs, from 2 metre plunge pools to 10 metre lap pools. Supplied and installed across Cape Town's northern suburbs.">
+<style>
+  :root{
+    --navy:#0b2a3b;
+    --deep:#0e3b52;
+    --blue:#1793c9;
+    --aqua:#39c0d3;
+    --sand:#f4efe6;
+    --ink:#12222b;
+    --muted:#5a6b73;
+    --line:#e2e6e8;
+    --white:#ffffff;
+    --wa:#25d366;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.6;background:var(--white)}
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+  h1,h2,h3{line-height:1.15;letter-spacing:-0.01em}
+  h2{font-size:clamp(1.6rem,3vw,2.4rem);color:var(--navy);margin-bottom:.4em}
+  .lead{font-size:1.08rem;color:var(--muted);max-width:640px}
+  .btn{display:inline-block;padding:14px 26px;border-radius:8px;font-weight:700;font-size:.98rem;transition:.15s;cursor:pointer;border:0}
+  .btn-primary{background:var(--blue);color:#fff}
+  .btn-primary:hover{background:#127aa8}
+  .btn-ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.7)}
+  .btn-ghost:hover{background:rgba(255,255,255,.12)}
+  .btn-wa{background:var(--wa);color:#fff}
+  .btn-wa:hover{filter:brightness(.94)}
+  .center{text-align:center}
+  section{padding:74px 0}
+  .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;font-weight:700;color:var(--blue);margin-bottom:.6em}
+
+  /* NOTE BANNER */
+  .mocknote{background:#fff8e1;border-bottom:1px solid #f0e2b8;color:#6b5900;font-size:.86rem;padding:10px 22px;text-align:center}
+
+  /* HEADER */
+  header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:74px}
+  .logo{font-weight:800;font-size:1.15rem;color:var(--navy);letter-spacing:-.02em}
+  .logo span{color:var(--blue)}
+  nav ul{display:flex;gap:26px;list-style:none;font-weight:600;font-size:.94rem}
+  nav a:hover{color:var(--blue)}
+  .head-cta{display:flex;gap:10px;align-items:center}
+  .phone-link{font-weight:700;color:var(--navy);font-size:.96rem}
+  @media(max-width:900px){nav{display:none}.phone-link{display:none}}
+
+  /* HERO */
+  .hero{position:relative;min-height:640px;display:flex;align-items:center;color:#fff;
+    background:linear-gradient(180deg,rgba(6,22,31,.55),rgba(6,22,31,.72)),
+    url('https://static.wixstatic.com/media/311349_81f60509420c4d5c999d2fbb4fb5fd1c~mv2.jpg/v1/fill/w_1800,h_1100,al_c,q_85,enc_auto/311349_81f60509420c4d5c999d2fbb4fb5fd1c~mv2.jpg') center/cover no-repeat,var(--deep)}
+  .hero h1{font-size:clamp(2.1rem,4.6vw,3.5rem);max-width:15ch;margin-bottom:.5em}
+  .hero p{font-size:1.15rem;max-width:52ch;margin-bottom:1.6em;color:rgba(255,255,255,.92)}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+  .hero-badges{display:flex;gap:22px;margin-top:2.4em;flex-wrap:wrap;font-size:.92rem;font-weight:600}
+  .hero-badges div::before{content:"✓ ";color:var(--aqua);font-weight:800}
+
+  /* TRUST BAR */
+  .trust{background:var(--navy);color:#fff;padding:34px 0}
+  .trust .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;text-align:center}
+  .trust .n{font-size:2rem;font-weight:800;color:var(--aqua)}
+  .trust .l{font-size:.86rem;color:rgba(255,255,255,.75);text-transform:uppercase;letter-spacing:.08em}
+  @media(max-width:760px){.trust .wrap{grid-template-columns:repeat(2,1fr);gap:26px}}
+
+  /* SERVICES */
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:34px}
+  .card{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;transition:.18s}
+  .card:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(11,42,59,.13)}
+  .card img{height:210px;object-fit:cover;width:100%}
+  .card .pad{padding:22px}
+  .card h3{color:var(--navy);font-size:1.2rem;margin-bottom:.4em}
+  .card p{font-size:.96rem;color:var(--muted);margin-bottom:1em}
+  .card a{font-weight:700;color:var(--blue);font-size:.92rem}
+  @media(max-width:860px){.cards{grid-template-columns:1fr}}
+
+  /* SPLIT */
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+  .split.alt{background:var(--sand)}
+  .split img{border-radius:12px;box-shadow:0 10px 30px rgba(11,42,59,.15)}
+  .split ul{margin-top:1em;padding-left:1.1em;color:var(--muted)}
+  .split li{margin-bottom:.4em}
+  @media(max-width:820px){.split{grid-template-columns:1fr;gap:26px}}
+
+  /* PROCESS */
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:34px;counter-reset:s}
+  .step{padding:24px;border-radius:12px;background:#fff;border:1px solid var(--line)}
+  .step::before{counter-increment:s;content:counter(s);display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:50%;background:var(--blue);color:#fff;font-weight:800;margin-bottom:14px}
+  .step h3{font-size:1.05rem;color:var(--navy);margin-bottom:.3em}
+  .step p{font-size:.9rem;color:var(--muted)}
+  @media(max-width:860px){.steps{grid-template-columns:repeat(2,1fr)}}
+
+  /* GALLERY */
+  .grid6{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:30px}
+  .grid6 img{height:190px;width:100%;object-fit:cover;border-radius:8px}
+  @media(max-width:860px){.grid6{grid-template-columns:repeat(2,1fr)}}
+
+  /* TESTIMONIALS */
+  .quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:34px}
+  .quote{background:#fff;border:1px solid var(--line);border-radius:12px;padding:26px}
+  .quote p{font-style:italic;color:var(--ink);margin-bottom:1em}
+  .quote .who{font-weight:700;color:var(--navy);font-size:.92rem}
+  .stars{color:#f5a623;margin-bottom:.6em;letter-spacing:2px}
+  @media(max-width:860px){.quotes{grid-template-columns:1fr}}
+
+  /* FAQ */
+  .faq{max-width:820px;margin:30px auto 0}
+  details{border-bottom:1px solid var(--line);padding:18px 0}
+  summary{font-weight:700;color:var(--navy);cursor:pointer;font-size:1.02rem;list-style:none;display:flex;justify-content:space-between}
+  summary::after{content:"+";color:var(--blue);font-weight:800}
+  details[open] summary::after{content:"–"}
+  details p{margin-top:.7em;color:var(--muted)}
+
+  /* CONTACT */
+  .contact{background:var(--navy);color:#fff}
+  .contact h2{color:#fff}
+  .contact .wrap{display:grid;grid-template-columns:1fr 1fr;gap:50px}
+  .contact .lead{color:rgba(255,255,255,.8)}
+  .cinfo div{margin:14px 0;font-size:1rem}
+  .cinfo b{color:var(--aqua)}
+  form{display:grid;gap:12px}
+  input,textarea{padding:13px;border-radius:8px;border:0;font-size:.96rem;font-family:inherit}
+  textarea{min-height:120px;resize:vertical}
+  @media(max-width:820px){.contact .wrap{grid-template-columns:1fr;gap:30px}}
+
+  /* FOOTER */
+  footer{background:#06161f;color:rgba(255,255,255,.6);padding:40px 0;font-size:.88rem;text-align:center}
+  footer a{color:rgba(255,255,255,.8)}
+
+  /* STICKY MOBILE ACTIONS */
+  .mobile-actions{position:fixed;bottom:0;left:0;right:0;display:none;z-index:60}
+  .mobile-actions a{flex:1;text-align:center;padding:15px;font-weight:800;color:#fff}
+  .mobile-actions .call{background:var(--blue)}
+  .mobile-actions .wa{background:var(--wa)}
+  @media(max-width:900px){.mobile-actions{display:flex}body{padding-bottom:52px}}
+</style>
+<style>
+  .poolnav{position:sticky;top:74px;z-index:40;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);padding:12px 0}
+  .poolnav .wrap{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+  .poolnav a{padding:7px 14px;border:1px solid var(--line);border-radius:999px;font-weight:700;font-size:.86rem;color:var(--navy)}
+  .poolnav a:hover{background:var(--blue);color:#fff;border-color:var(--blue)}
+  .poolgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin:22px 0 46px}
+  .pcard{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;transition:.18s}
+  .pcard:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(11,42,59,.13)}
+  .pcard img{width:100%;height:230px;object-fit:cover;background:var(--sand)}
+  .pcard figcaption{padding:18px}
+  .pcard h3{color:var(--navy);font-size:1.08rem;margin-bottom:.2em}
+  .pcard .dims{color:var(--muted);font-size:.9rem;margin-bottom:.7em}
+  .pcard a{font-weight:700;color:var(--blue);font-size:.9rem}
+  @media(max-width:900px){.poolgrid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.poolgrid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="mocknote">
+  DRAFT &mdash; new-pools page rebuilt from your current site, 107 designs. Photos carry the sizes. For review, 09 Sep 2026.
+</div>
+
+<header>
+  <div class="wrap bar">
+    <div class="logo">ALL ABOUT <span>POOLS</span></div>
+    <nav>
+      <ul>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="new-pools.html">New Pools</a></li>
+        <li><a href="index.html#beforeafter">Before &amp; After</a></li>
+        <li><a href="index.html#process">How It Works</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="head-cta">
+      <a class="phone-link" href="tel:0677327874">067 732 7874</a>
+      <a class="btn btn-wa" href="https://wa.me/27677327874">WhatsApp Us</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero" style="min-height:420px">
+  <div class="wrap">
+    <h1>New Fibreglass Pools</h1>
+    <p>Our full range of fibreglass pool shapes, from 2 metre plunge pools to 10 metre lap pools. Supplied and installed by our own team across Cape Town's northern suburbs.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="index.html#contact">Get a Free On-Site Quote</a>
+    </div>
+  </div>
+</section>
+
+<div class="poolnav"><div class="wrap"><a href="#r2">2m</a><a href="#r3">3m</a><a href="#r4">4m</a><a href="#r5">5m</a><a href="#r6">6m</a><a href="#r7">7m</a><a href="#r8">8m</a><a href="#r9">9m</a><a href="#r10">10m</a></div></div>
+
+<section>
+  <div class="wrap">
+    <h2 id="r2" style="margin-top:1.2em">2 metre range</h2><div class="poolgrid">  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/corsica-1-1-8-x-1-8-x-0-9.jpg" alt="Corsica 1 fibreglass pool 1.8 x 1.8 x 0.9 m">
+    <figcaption>
+      <h3>Corsica 1</h3>
+      <p class="dims">1.8 x 1.8 x 0.9 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/maui-2-2-x-2-x-0-9.jpg" alt="Maui 2 fibreglass pool 2 x 2 x 0.9 m">
+    <figcaption>
+      <h3>Maui 2</h3>
+      <p class="dims">2 x 2 x 0.9 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/corsica-2-2-2-x-1-8-x-0-9.jpg" alt="Corsica 2 fibreglass pool 2.2 x 1.8 x 0.9 m">
+    <figcaption>
+      <h3>Corsica 2</h3>
+      <p class="dims">2.2 x 1.8 x 0.9 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/cozumel-2-6-x-2-6-x-0-85.jpg" alt="Cozumel fibreglass pool 2.6 x 2.6 x 0.85 m">
+    <figcaption>
+      <h3>Cozumel</h3>
+      <p class="dims">2.6 x 2.6 x 0.85 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/milos-2-2-6-x-2-x-1-2.jpg" alt="Milos 2 fibreglass pool 2.6 x 2 x 1.2 m">
+    <figcaption>
+      <h3>Milos 2</h3>
+      <p class="dims">2.6 x 2 x 1.2 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure></div><h2 id="r3" style="margin-top:1.2em">3 metre range</h2><div class="poolgrid">  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/corfu-3-x-2-5-x-1-3.jpg" alt="Corfu fibreglass pool 3 x 2.5 x 1.3 m">
+    <figcaption>
+      <h3>Corfu</h3>
+      <p class="dims">3 x 2.5 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/corsica-3-3-x-1-8-x-0-9.jpg" alt="Corsica 3 fibreglass pool 3 x 1.8 x 0.9 m">
+    <figcaption>
+      <h3>Corsica 3</h3>
+      <p class="dims">3 x 1.8 x 0.9 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/corsica-3-3-x-1-8-x-1-2.jpg" alt="Corsica 3 fibreglass pool 3 x 1.8 x 1.2 m">
+    <figcaption>
+      <h3>Corsica 3</h3>
+      <p class="dims">3 x 1.8 x 1.2 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/crete-3-x-3-x-1-3.jpg" alt="Crete fibreglass pool 3 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Crete</h3>
+      <p class="dims">3 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/delos-3-x-2-x-1-3.jpg" alt="Delos fibreglass pool 3 x 2 x 1.3 m">
+    <figcaption>
+      <h3>Delos</h3>
+      <p class="dims">3 x 2 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/java-3-x-2-5-x-1.jpg" alt="Java fibreglass pool 3 x 2.5 x 1 m">
+    <figcaption>
+      <h3>Java</h3>
+      <p class="dims">3 x 2.5 x 1 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/java-bay-3-x-2-5-x-1.jpg" alt="Java Bay fibreglass pool 3 x 2.5 x 1 m">
+    <figcaption>
+      <h3>Java Bay</h3>
+      <p class="dims">3 x 2.5 x 1 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/pico-3m-round-x-1-45-deep.jpg" alt="Pico fibreglass pool 3M ROUND X 1.45 DEEP">
+    <figcaption>
+      <h3>Pico</h3>
+      <p class="dims">3M ROUND X 1.45 DEEP</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/zanzibar-3-3-x-3-x-1-3.jpg" alt="Zanzibar 3 fibreglass pool 3 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Zanzibar 3</h3>
+      <p class="dims">3 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/zapara-3-x-2-x-1.jpg" alt="Zapara 3 X 2 X 1 fibreglass pool 3 x 2 x 1 m">
+    <figcaption>
+      <h3>Zapara 3 X 2 X 1</h3>
+      <p class="dims">3 x 2 x 1 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/majorca-3-2-x-2-3-x-1-4.jpg" alt="Majorca fibreglass pool 3.2 x 2.3 x 1.4 m">
+    <figcaption>
+      <h3>Majorca</h3>
+      <p class="dims">3.2 x 2.3 x 1.4 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/san-carlos-3-2-x-2-2-x-1-3.jpg" alt="San Carlos fibreglass pool 3.2 x 2.2 x 1.3 m">
+    <figcaption>
+      <h3>San Carlos</h3>
+      <p class="dims">3.2 x 2.2 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/santorini-3-5-x-2-x-1-5.jpg" alt="Santorini fibreglass pool 3.5 x 2 x 1.5 m">
+    <figcaption>
+      <h3>Santorini</h3>
+      <p class="dims">3.5 x 2 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/leros-3-7-x-2-3-x-1-3.jpg" alt="Leros fibreglass pool 3.7 x 2.3 x 1.3 m">
+    <figcaption>
+      <h3>Leros</h3>
+      <p class="dims">3.7 x 2.3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure></div><h2 id="r4" style="margin-top:1.2em">4 metre range</h2><div class="poolgrid">  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/azores-4-4-x-3-3-x-1-4.jpg" alt="Azores 4 fibreglass pool 4 x 3.3 x 1.4 m">
+    <figcaption>
+      <h3>Azores 4</h3>
+      <p class="dims">4 x 3.3 x 1.4 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/comores-4-4-x-2-2-x-1-3.jpg" alt="Comores 4 fibreglass pool 4 x 2.2 x 1.3 m">
+    <figcaption>
+      <h3>Comores 4</h3>
+      <p class="dims">4 x 2.2 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/cyprus-4-4-x-3-x-1-3.jpg" alt="Cyprus 4 fibreglass pool 4 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Cyprus 4</h3>
+      <p class="dims">4 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/cyprus-4-bay-4-x-3-x-1-3.jpg" alt="Cyprus 4 Bay fibreglass pool 4 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Cyprus 4 Bay</h3>
+      <p class="dims">4 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/elba-4-4-x-3-x-1-5.jpg" alt="Elba 4 fibreglass pool 4 x 3 x 1.5 m">
+    <figcaption>
+      <h3>Elba 4</h3>
+      <p class="dims">4 x 3 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/las-palmas-4-x-2-3-x-1-3.jpg" alt="Las Palmas fibreglass pool 4 x 2.3 x 1.3 m">
+    <figcaption>
+      <h3>Las Palmas</h3>
+      <p class="dims">4 x 2.3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/milos-4-4-x-2-x-1-4.jpg" alt="Milos 4 fibreglass pool 4 x 2 x 1.4 m">
+    <figcaption>
+      <h3>Milos 4</h3>
+      <p class="dims">4 x 2 x 1.4 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/naxos-4-x-2-3-x-1-3.jpg" alt="Naxos fibreglass pool 4 x 2.3 x 1.3 m">
+    <figcaption>
+      <h3>Naxos</h3>
+      <p class="dims">4 x 2.3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/naxos-patio-4-x-2-7-x-1-3.jpg" alt="Naxos Patio fibreglass pool 4 x 2.7 x 1.3 m">
+    <figcaption>
+      <h3>Naxos Patio</h3>
+      <p class="dims">4 x 2.7 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/patmos-4-x-2-2-x-1-2.jpg" alt="Patmos fibreglass pool 4 x 2.2 x 1.2 m">
+    <figcaption>
+      <h3>Patmos</h3>
+      <p class="dims">4 x 2.2 x 1.2 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/samos-4-x-2-6-x-1-4.jpg" alt="Samos fibreglass pool 4 x 2.6 x 1.4 m">
+    <figcaption>
+      <h3>Samos</h3>
+      <p class="dims">4 x 2.6 x 1.4 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/tenerife-4-x-3-x-1-3.jpg" alt="Tenerife fibreglass pool 4 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Tenerife</h3>
+      <p class="dims">4 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/zanzibar-4-4-x-3-x-1-3.jpg" alt="Zanzibar 4 fibreglass pool 4 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Zanzibar 4</h3>
+      <p class="dims">4 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/mahe-4-4-2-x-3-x-1-1-1-4.jpg" alt="Mahe 4 fibreglass pool 4.2 x 3 x 1.1-1.4 m">
+    <figcaption>
+      <h3>Mahe 4</h3>
+      <p class="dims">4.2 x 3 x 1.1-1.4 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/maldives-4-2-x-2-6-x-1-3.jpg" alt="Maldives fibreglass pool 4.2 x 2.6 x 1.3 m">
+    <figcaption>
+      <h3>Maldives</h3>
+      <p class="dims">4.2 x 2.6 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/cyprus-4-patio-4-5-x-3-x-1-3.jpg" alt="Cyprus 4 Patio fibreglass pool 4.5 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Cyprus 4 Patio</h3>
+      <p class="dims">4.5 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/santorini-4-5-4-5-x-2-x-1-5.jpg" alt="Santorini 4.5 fibreglass pool 4.5 x 2 x 1.5 m">
+    <figcaption>
+      <h3>Santorini 4.5</h3>
+      <p class="dims">4.5 x 2 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure></div><h2 id="r5" style="margin-top:1.2em">5 metre range</h2><div class="poolgrid">  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/aruba-5-5-x-2-5-x-1-4.jpg" alt="Aruba 5 fibreglass pool 5 x 2.5 x 1.4 m">
+    <figcaption>
+      <h3>Aruba 5</h3>
+      <p class="dims">5 x 2.5 x 1.4 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/azores-5-5-x-3-3-x-1-3.jpg" alt="Azores 5 fibreglass pool 5 x 3.3 x 1.3 m">
+    <figcaption>
+      <h3>Azores 5</h3>
+      <p class="dims">5 x 3.3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/elba-4-bay-5-x-3-x-1-5.jpg" alt="Elba 4 Bay fibreglass pool 5 x 3 x 1.5 m">
+    <figcaption>
+      <h3>Elba 4 Bay</h3>
+      <p class="dims">5 x 3 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/elba-5-5-x-3-x-1-5.jpg" alt="Elba 5 fibreglass pool 5 x 3 x 1.5 m">
+    <figcaption>
+      <h3>Elba 5</h3>
+      <p class="dims">5 x 3 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/halki-5-x-3-x-1-4.jpg" alt="Halki fibreglass pool 5 x 3 x 1.4 m">
+    <figcaption>
+      <h3>Halki</h3>
+      <p class="dims">5 x 3 x 1.4 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/hydra-5-x-2-3-x-1-1-5.jpg" alt="Hydra fibreglass pool 5 x 2.3 x 1-1.5 m">
+    <figcaption>
+      <h3>Hydra</h3>
+      <p class="dims">5 x 2.3 x 1-1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/lipari-5-5-x-3-x-1-1-1-55.jpg" alt="Lipari 5 fibreglass pool 5 x 3 x 1.1-1.55 m">
+    <figcaption>
+      <h3>Lipari 5</h3>
+      <p class="dims">5 x 3 x 1.1-1.55 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/malta-5-x-2-5-x-1-1-1-55.jpg" alt="Malta fibreglass pool 5 x 2.5 x 1.1-1.55 m">
+    <figcaption>
+      <h3>Malta</h3>
+      <p class="dims">5 x 2.5 x 1.1-1.55 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/milos-5-5-x-2-x-1-2.jpg" alt="Milos 5 fibreglass pool 5 x 2 x 1.2 m">
+    <figcaption>
+      <h3>Milos 5</h3>
+      <p class="dims">5 x 2 x 1.2 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/naxos-bay-5-x-2-3-x-1-3.jpg" alt="Naxos Bay fibreglass pool 5 x 2.3 x 1.3 m">
+    <figcaption>
+      <h3>Naxos Bay</h3>
+      <p class="dims">5 x 2.3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/sicily-5-5-x-2-4-x-1-45.jpg" alt="Sicily 5 fibreglass pool 5 x 2.4 x 1.45 m">
+    <figcaption>
+      <h3>Sicily 5</h3>
+      <p class="dims">5 x 2.4 x 1.45 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/symi-5-x-3-x-1-47.jpg" alt="Symi fibreglass pool 5 x 3 x 1.47 m">
+    <figcaption>
+      <h3>Symi</h3>
+      <p class="dims">5 x 3 x 1.47 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/syros-5-x-2-3-x-1-3.jpg" alt="Syros fibreglass pool 5 x 2.3 x 1.3 m">
+    <figcaption>
+      <h3>Syros</h3>
+      <p class="dims">5 x 2.3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/zanzibar-5-5-x-3-x-1-3.jpg" alt="Zanzibar 5 fibreglass pool 5 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Zanzibar 5</h3>
+      <p class="dims">5 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/madagascar-5-5-1-x-3-2-x-1-3.jpg" alt="Madagascar 5 fibreglass pool 5.1 x 3.2 x 1.3 m">
+    <figcaption>
+      <h3>Madagascar 5</h3>
+      <p class="dims">5.1 x 3.2 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/mahe-5-5-2-x-3-x-1-1-1-55.jpg" alt="Mahe 5 fibreglass pool 5.2 x 3 x 1.1-1.55 m">
+    <figcaption>
+      <h3>Mahe 5</h3>
+      <p class="dims">5.2 x 3 x 1.1-1.55 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/barbados-5-5-x-3-x-1-3.jpg" alt="Barbados fibreglass pool 5.5 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Barbados</h3>
+      <p class="dims">5.5 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/cyprus-4-patio-bay-5-5-x-3-x-1-3.jpg" alt="Cyprus 4 Patio Bay fibreglass pool 5.5 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Cyprus 4 Patio Bay</h3>
+      <p class="dims">5.5 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/zanzibar-5-5-5-5-x-3-x-1-3.jpg" alt="Zanzibar 5.5 fibreglass pool 5.5 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Zanzibar 5.5</h3>
+      <p class="dims">5.5 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure></div><h2 id="r6" style="margin-top:1.2em">6 metre range</h2><div class="poolgrid">  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/azores-6-6-x-3-3-x-1-4.jpg" alt="Azores 6 fibreglass pool 6 x 3.3 x 1.4 m">
+    <figcaption>
+      <h3>Azores 6</h3>
+      <p class="dims">6 x 3.3 x 1.4 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/cyprus-6-6-x-3-x-1-1-6.jpg" alt="Cyprus 6 fibreglass pool 6 x 3 x 1-1.6 m">
+    <figcaption>
+      <h3>Cyprus 6</h3>
+      <p class="dims">6 x 3 x 1-1.6 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/elba-5-bay-6-x-3-x-1-5.jpg" alt="Elba 5 Bay fibreglass pool 6 x 3 x 1.5 m">
+    <figcaption>
+      <h3>Elba 5 Bay</h3>
+      <p class="dims">6 x 3 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/elba-6-6-x-3-x-1-5.jpg" alt="Elba 6 fibreglass pool 6 x 3 x 1.5 m">
+    <figcaption>
+      <h3>Elba 6</h3>
+      <p class="dims">6 x 3 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/las-palmas-6-6-x-2-3-x-1-3.jpg" alt="Las Palmas 6 fibreglass pool 6 x 2.3 x 1.3 m">
+    <figcaption>
+      <h3>Las Palmas 6</h3>
+      <p class="dims">6 x 2.3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/lipari-6-6-x-3-x-1-1-1-65.jpg" alt="Lipari 6 fibreglass pool 6 x 3 x 1.1-1.65 m">
+    <figcaption>
+      <h3>Lipari 6</h3>
+      <p class="dims">6 x 3 x 1.1-1.65 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/madagascar-6-6-x-3-2-x-1-3.jpg" alt="Madagascar 6 fibreglass pool 6 x 3.2 x 1.3 m">
+    <figcaption>
+      <h3>Madagascar 6</h3>
+      <p class="dims">6 x 3.2 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/milos-6-6-x-2-x-1-2.jpg" alt="Milos 6 fibreglass pool 6 x 2 x 1.2 m">
+    <figcaption>
+      <h3>Milos 6</h3>
+      <p class="dims">6 x 2 x 1.2 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/samoa-6-6-x-3-2-x-1-3.jpg" alt="Samoa 6 fibreglass pool 6 x 3.2 x 1.3 m">
+    <figcaption>
+      <h3>Samoa 6</h3>
+      <p class="dims">6 x 3.2 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/santorini-6-6-x-2-x-1-5.jpg" alt="Santorini 6 fibreglass pool 6 x 2 x 1.5 m">
+    <figcaption>
+      <h3>Santorini 6</h3>
+      <p class="dims">6 x 2 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/symi-6-6-x-3-x-1-5.jpg" alt="Symi 6 fibreglass pool 6 x 3 x 1.5 m">
+    <figcaption>
+      <h3>Symi 6</h3>
+      <p class="dims">6 x 3 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/tahiti-6-x-3-5-x-1-2-1-6.jpg" alt="Tahiti fibreglass pool 6 x 3.5 x 1.2-1.6 m">
+    <figcaption>
+      <h3>Tahiti</h3>
+      <p class="dims">6 x 3.5 x 1.2-1.6 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/zanzibar-6-6-x-3-x-1-3.jpg" alt="Zanzibar 6 fibreglass pool 6 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Zanzibar 6</h3>
+      <p class="dims">6 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/mahe-6-6-2-x-3-x-1-1-1-65.jpg" alt="Mahe 6 fibreglass pool 6.2 x 3 x 1.1-1.65 m">
+    <figcaption>
+      <h3>Mahe 6</h3>
+      <p class="dims">6.2 x 3 x 1.1-1.65 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/patmos-6-5-6-5-x-2-2-x-1-2.jpg" alt="Patmos 6.5 fibreglass pool 6.5 x 2.2 x 1.2 m">
+    <figcaption>
+      <h3>Patmos 6.5</h3>
+      <p class="dims">6.5 x 2.2 x 1.2 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/santorini-6-5-6-5-x-2-x-1-5.jpg" alt="Santorini 6.5 fibreglass pool 6.5 x 2 x 1.5 m">
+    <figcaption>
+      <h3>Santorini 6.5</h3>
+      <p class="dims">6.5 x 2 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/zanzibar-6-5-6-5-x-3-x-1-3.jpg" alt="Zanzibar 6.5 fibreglass pool 6.5 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Zanzibar 6.5</h3>
+      <p class="dims">6.5 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/mykonos-6-8-x-3-6-x-1-4.jpg" alt="Mykonos fibreglass pool 6.8 x 3.6 x 1.4 m">
+    <figcaption>
+      <h3>Mykonos</h3>
+      <p class="dims">6.8 x 3.6 x 1.4 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure></div><h2 id="r7" style="margin-top:1.2em">7 metre range</h2><div class="poolgrid">  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/elba-6-bay-7-x-3-x-1-5.jpg" alt="Elba 6 Bay fibreglass pool 7 x 3 x 1.5 m">
+    <figcaption>
+      <h3>Elba 6 Bay</h3>
+      <p class="dims">7 x 3 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/elba-7-7-x-3-x-1-1-6.jpg" alt="Elba 7 fibreglass pool 7 x 3 x 1-1.6 m">
+    <figcaption>
+      <h3>Elba 7</h3>
+      <p class="dims">7 x 3 x 1-1.6 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/madagascar-7-7-x-3-2-x-1-3.jpg" alt="Madagascar 7 fibreglass pool 7 x 3.2 x 1.3 m">
+    <figcaption>
+      <h3>Madagascar 7</h3>
+      <p class="dims">7 x 3.2 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/milos-7-7-x-2-x-1-2.jpg" alt="Milos 7 fibreglass pool 7 x 2 x 1.2 m">
+    <figcaption>
+      <h3>Milos 7</h3>
+      <p class="dims">7 x 2 x 1.2 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/murano-7-7-x-3-x-1-75.jpg" alt="Murano 7 fibreglass pool 7 x 3 x 1.75 m">
+    <figcaption>
+      <h3>Murano 7</h3>
+      <p class="dims">7 x 3 x 1.75 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/rhodes-7-x-3-6-x-1-5.jpg" alt="Rhodes fibreglass pool 7 x 3.6 x 1.5 m">
+    <figcaption>
+      <h3>Rhodes</h3>
+      <p class="dims">7 x 3.6 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/samoa-7-7-x-3-2-x-1-3.jpg" alt="Samoa 7 fibreglass pool 7 x 3.2 x 1.3 m">
+    <figcaption>
+      <h3>Samoa 7</h3>
+      <p class="dims">7 x 3.2 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/santorini-7-7-x-2-x-1-5.jpg" alt="Santorini 7 fibreglass pool 7 x 2 x 1.5 m">
+    <figcaption>
+      <h3>Santorini 7</h3>
+      <p class="dims">7 x 2 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/venice-7-7-x-3-2-x-1-1-1-75.jpg" alt="Venice 7 fibreglass pool 7 x 3.2 x 1.1-1.75 m">
+    <figcaption>
+      <h3>Venice 7</h3>
+      <p class="dims">7 x 3.2 x 1.1-1.75 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/zanzibar-7-7-x-3-x-1-3.jpg" alt="Zanzibar 7 fibreglass pool 7 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Zanzibar 7</h3>
+      <p class="dims">7 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/mijet-7-1-x-3-2-x-1-6.jpg" alt="Mijet fibreglass pool 7.1 x 3.2 x 1.6 m">
+    <figcaption>
+      <h3>Mijet</h3>
+      <p class="dims">7.1 x 3.2 x 1.6 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/zanzibar-7-5-7-5-x-3-x-1-3.jpg" alt="Zanzibar 7.5 fibreglass pool 7.5 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Zanzibar 7.5</h3>
+      <p class="dims">7.5 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure></div><h2 id="r8" style="margin-top:1.2em">8 metre range</h2><div class="poolgrid">  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/aruba-8-8-x-2-5-x-1-4.jpg" alt="Aruba 8 fibreglass pool 8 x 2.5 x 1.4 m">
+    <figcaption>
+      <h3>Aruba 8</h3>
+      <p class="dims">8 x 2.5 x 1.4 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/burano-8-x-3-x-1-3.jpg" alt="Burano fibreglass pool 8 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Burano</h3>
+      <p class="dims">8 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/elba-7-bay-8-x-3-x-1-6.jpg" alt="Elba 7 Bay fibreglass pool 8 x 3 x 1.6 m">
+    <figcaption>
+      <h3>Elba 7 Bay</h3>
+      <p class="dims">8 x 3 x 1.6 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/elba-8-8-x-3-x-1-7.jpg" alt="Elba 8 fibreglass pool 8 x 3 x 1.7 m">
+    <figcaption>
+      <h3>Elba 8</h3>
+      <p class="dims">8 x 3 x 1.7 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/madagascar-8-8-x-3-2-x-1-3.jpg" alt="Madagascar 8 fibreglass pool 8 x 3.2 x 1.3 m">
+    <figcaption>
+      <h3>Madagascar 8</h3>
+      <p class="dims">8 x 3.2 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/milos-8-8-x-2-x-1-4.jpg" alt="Milos 8 fibreglass pool 8 x 2 x 1.4 m">
+    <figcaption>
+      <h3>Milos 8</h3>
+      <p class="dims">8 x 2 x 1.4 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/murano-8-8-x-3-x-1-8.jpg" alt="Murano 8 fibreglass pool 8 x 3 x 1.8 m">
+    <figcaption>
+      <h3>Murano 8</h3>
+      <p class="dims">8 x 3 x 1.8 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/santorini-8-8-x-2-x-1-5.jpg" alt="Santorini 8 fibreglass pool 8 x 2 x 1.5 m">
+    <figcaption>
+      <h3>Santorini 8</h3>
+      <p class="dims">8 x 2 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/sicily-8-lappool-8-x-2-4-x-1-45.jpg" alt="Sicily 8 Lap Pool fibreglass pool 8 x 2.4 x 1.45 m">
+    <figcaption>
+      <h3>Sicily 8 Lap Pool</h3>
+      <p class="dims">8 x 2.4 x 1.45 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/venice-8-8-x-3-2-x-1-1-1-75.jpg" alt="Venice 8 fibreglass pool 8 x 3.2 x 1.1-1.75 m">
+    <figcaption>
+      <h3>Venice 8</h3>
+      <p class="dims">8 x 3.2 x 1.1-1.75 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/zanzibar-8-8-x-3-x-1-3.jpg" alt="Zanzibar 8 fibreglass pool 8 x 3 x 1.3 m">
+    <figcaption>
+      <h3>Zanzibar 8</h3>
+      <p class="dims">8 x 3 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/rhodes-bay-8-3-x-3-6-x-1-5.jpg" alt="Rhodes Bay fibreglass pool 8.3 x 3.6 x 1.5 m">
+    <figcaption>
+      <h3>Rhodes Bay</h3>
+      <p class="dims">8.3 x 3.6 x 1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/skye-8-8-x-3-6-x-1-1-5.jpg" alt="Skye fibreglass pool 8.8 x 3.6 x 1-1.5 m">
+    <figcaption>
+      <h3>Skye</h3>
+      <p class="dims">8.8 x 3.6 x 1-1.5 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure></div><h2 id="r9" style="margin-top:1.2em">9 metre range</h2><div class="poolgrid">  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/elba-8-bay-9-x-3-x-1-7.jpg" alt="Elba 8 Bay fibreglass pool 9 x 3 x 1.7 m">
+    <figcaption>
+      <h3>Elba 8 Bay</h3>
+      <p class="dims">9 x 3 x 1.7 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/madagascar-9-9-x-3-2-x-1-3.jpg" alt="Madagascar 9 fibreglass pool 9 x 3.2 x 1.3 m">
+    <figcaption>
+      <h3>Madagascar 9</h3>
+      <p class="dims">9 x 3.2 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/milos-9-9-x-2-x-1-4.jpg" alt="Milos 9 fibreglass pool 9 x 2 x 1.4 m">
+    <figcaption>
+      <h3>Milos 9</h3>
+      <p class="dims">9 x 2 x 1.4 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/samoa-9-9-x-3-2-x-1-3.jpg" alt="Samoa 9 fibreglass pool 9 x 3.2 x 1.3 m">
+    <figcaption>
+      <h3>Samoa 9</h3>
+      <p class="dims">9 x 3.2 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure></div><h2 id="r10" style="margin-top:1.2em">10 metre range</h2><div class="poolgrid">  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/comores-10.jpg" alt="Comores 10 fibreglass pool ">
+    <figcaption>
+      <h3>Comores 10</h3>
+      
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/madagascar-10-10-x-3-2-x-1-3.jpg" alt="Madagascar 10 fibreglass pool 10 x 3.2 x 1.3 m">
+    <figcaption>
+      <h3>Madagascar 10</h3>
+      <p class="dims">10 x 3.2 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/milos-10-10-x-2-x-1-2.jpg" alt="Milos 10 fibreglass pool 10 x 2 x 1.2 m">
+    <figcaption>
+      <h3>Milos 10</h3>
+      <p class="dims">10 x 2 x 1.2 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/samoa-10-10-x-3-2-x-1-3.jpg" alt="Samoa 10 fibreglass pool 10 x 3.2 x 1.3 m">
+    <figcaption>
+      <h3>Samoa 10</h3>
+      <p class="dims">10 x 3.2 x 1.3 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure>  <figure class="pcard">
+    <img loading="lazy" src="assets/pools/sicily-10-lappool-10-x-2-4-x-1-45.jpg" alt="Sicily 10 Lap Pool fibreglass pool 10 x 2.4 x 1.45 m">
+    <figcaption>
+      <h3>Sicily 10 Lap Pool</h3>
+      <p class="dims">10 x 2.4 x 1.45 m</p>
+      <a href="index.html#contact">Get a quote for this design &rarr;</a>
+    </figcaption>
+  </figure></div>
+    <p class="center" style="margin-top:20px;color:var(--muted);font-size:.94rem">Don't see the size you need? We can help you choose. <a href="index.html#contact" style="color:var(--blue);font-weight:700">Ask us &rarr;</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b style="color:#fff">ALL ABOUT POOLS</b> &nbsp;&middot;&nbsp; Pool renovations, fibreglass linings &amp; installations &nbsp;&middot;&nbsp; Edgemead, Cape Town</p>
+    <p style="margin-top:8px">067 732 7874 &nbsp;&middot;&nbsp; info@allaboutpools.co.za</p>
+  </div>
+</footer>
+
+<div class="mobile-actions">
+  <a class="call" href="tel:0677327874">Call Now</a>
+  <a class="wa" href="https://wa.me/27677327874">WhatsApp</a>
+</div>
+
+</body>
+</html>
